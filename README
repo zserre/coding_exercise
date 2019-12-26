@@ -1,0 +1,29 @@
+Question 1:
+
+Implementation in Rakefile
+
+
+Question 2:
+
+Implementation in Rakefile
+
+
+Answer to question 2:
+
+
+Sensor 1: 4
+Sensor 2: 10
+Sensor 3: 18
+Sensor 4: 99999999999999
+
+Thoughts on question 2:
+
+I would try and organize the data so it was cleaner there was some missing and incosistent pieces of data. Sensor 4
+seems like it was an outlier so maybe something was wrong with the sensor potentially? I took the approach that if the name, value or timestamp was missing from each row I would discard the entire row, may be a little conservative but
+will limit the amount of messy/noisy/errouneous data points. Also with this csv there were no headers so i needed to
+look at the data bit and infer which cell of data meant.
+
+
+Question 3:
+
+see verge_sense_project.pdf
